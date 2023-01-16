@@ -1,0 +1,291 @@
+/* reset */
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h4, p{
+  margin: 0;
+}
+.link {
+  text-decoration: none;
+}
+
+/* style */
+
+body {
+  background-color: #232323;
+}
+/* main html */
+main{
+  background-color: #ffffff;
+}
+header {
+  border-bottom: 1px solid #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+img {
+  display: block;
+}
+.cont{
+  max-width: 1296px;
+  margin: 0 auto;
+}
+/* container */
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+  
+}
+/* nav-menu */
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-menu-item .link {
+  color: #ffffff;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+.thumb {
+  margin-right: 124px;
+}
+/* block html */
+.boxs {
+  max-width: 1040px;
+  border: 1px solid #ffffff;
+}
+
+.show {
+  display: inline-block;
+  padding: 12px 28px;
+
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: 1px solid #ffffff;
+}
+.show:focus {
+  border: 10px solid aqua;
+  outline: 1px solid coral;
+}
+/*photo*/
+.photo{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.photo-container{
+  width: 1296px;
+  margin: 0 auto;
+}
+.photograph{
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+}
+.item{
+  padding: 25px 20px;
+  border: 1px solid #F7ECE1;
+}
+.item img{
+  display: block;
+}
+/*sell*/
+.sell{
+  width: 526px;
+}
+.service{
+  background-color: #8D86C9;
+  color:#ffffff;
+  width: 100%;
+  padding-top: 15px; 
+  padding-bottom: 15px;
+}
+/* .element:not(:last-child){
+  margin-bottom: 10px;
+} */
+.element + .element{
+  margin-top: 10px;
+}
+.up{
+  margin-bottom: 75px;
+}
+/*news*/
+.new{
+  width: 1236px;
+}
+.heads-contaainer{
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #232323;
+  color: #ffffff;
+}
+
+.heads{
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.4;
+}
+.news{
+  padding-top:80px ;
+  padding-bottom: 120px;
+}
+.news .list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.news .item {
+  width: 416px;
+  padding: 30px 40px;
+  outline: 1px solid #F7ECE1;
+}
+.news img{
+  display: block;
+}
+
+.news h4 {
+  margin-bottom: 20px;
+  max-width: 336px;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.4;
+  color: #333333;
+}
+
+.news p {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333333;
+}
+.news .button {
+  padding: 10px 20px;
+  color: #FFFFFF;
+  background-color: #8D86C9;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+}
+.news .item:nth-child(2) h4{
+  margin-bottom: 49px;
+}
+/* hero*/
+
+.hero {
+  padding-top: 200px;
+  background-color: #232323;
+}
+
+.container-hero .title {
+  max-width: 636px;
+  margin-bottom: 342px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.bt {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.button{
+  width: 315px;
+  padding-top: 35px;
+  padding-left: 0px;
+  padding-bottom: 40px;
+  padding-right: 35px;
+  background-color: #8D86C9;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.word{
+  margin-top: 17px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+}
+/* footer */
+
+footer{
+  padding: 38px 0;
+  background-color: #F7ECE1;
+}
+.container-footer{
+display: flex;
+align-items: center;
+}
+.list-foot {
+  display: flex;
+  gap: 40px;
+  margin-left: 104px;
+}
+
+.footer-nav-item {
+  display: inline-block;
+}
+.foot{
+  color: #333333;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+}
+.p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333;
+}
+/*team*/
+.titl{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 140%;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 75p;
+}
+.list-it{
+  display: flex;
+  gap: 24px;
+}
+.list-it img{
+  display: block;
+  padding: 0 15px;
+  border: 1px solid #F7ECE1;
+}
+.list-it h4{
+  margin: 25px 0 15px 0;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+  color: #333333;
+}
+.list-it p{
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #333333;
+}
