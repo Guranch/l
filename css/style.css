@@ -5,7 +5,7 @@ ul {
   padding: 0;
   list-style: none;
 }
-h4, p{
+h1,h2,h3,h4,h5,h6 p{
   margin: 0;
 }
 .link {
@@ -13,6 +13,14 @@ h4, p{
 }
 
 /* style */
+
+html{
+  box-sizing: border-box;
+}
+
+html *, ::after, ::before{
+  box-sizing: inherit;
+}
 
 body {
   background-color: #232323;
@@ -107,17 +115,21 @@ img {
   width: 526px;
 }
 .service{
+  border: none;
   background-color: #8D86C9;
-  color:#ffffff;
+  color: #ffffff;
   width: 100%;
-  padding-top: 15px; 
+  padding-top: 15px;
   padding-bottom: 15px;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.4;
 }
 /* .element:not(:last-child){
   margin-bottom: 10px;
 } */
 .element + .element{
-  margin-top: 10px;
+  margin-top: 31px;
 }
 .up{
   margin-bottom: 75px;
@@ -189,7 +201,9 @@ img {
 
 .hero {
   padding-top: 200px;
-  background-color: #232323;
+  background-image: url(/images/fon.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .container-hero .title {
@@ -217,6 +231,7 @@ img {
   font-weight: 600;
   font-size: 18px;
   line-height: 140%;
+
 }
 
 .word{
@@ -288,4 +303,35 @@ align-items: center;
   line-height: 140%;
   text-align: center;
   color: #333333;
+}
+/*coffe*/
+.bussines{
+  display: flex;
+  padding-bottom: 150px;
+  padding-top: 150px;
+}
+.coffe{
+  margin-left: 134px;
+}
+.calm{
+  width: 636px;
+  height: 330px;
+  padding: 30px 25px;
+}
+.cofe{
+  background-image: url(/images/l.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+.buying{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.container-b{
+  display: flex;
+  margin: 0 auto;
 }
