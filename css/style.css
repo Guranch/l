@@ -5,7 +5,7 @@ ul {
   padding: 0;
   list-style: none;
 }
-h1,h2,h3,h4,h5,h6 p{
+h1,h2,h3,h4,h5,h6, p{
   margin: 0;
 }
 .link {
@@ -23,6 +23,7 @@ html *, ::after, ::before{
 }
 
 body {
+  font-family: 'Gilroy';
   background-color: #232323;
 }
 /* main html */
@@ -133,6 +134,10 @@ img {
 }
 .up{
   margin-bottom: 75px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.4;
+  color: #333333;
 }
 /*news*/
 .new{
@@ -211,7 +216,7 @@ img {
   margin-bottom: 342px;
   font-weight: 700;
   font-size: 48px;
-  line-height: 140%;
+  line-height: 1.4;
   color: #FFFFFF;
 }
 .bt {
@@ -222,23 +227,23 @@ img {
 
 .button{
   width: 315px;
-  padding-top: 35px;
-  padding-left: 0px;
-  padding-bottom: 40px;
-  padding-right: 35px;
+  padding: 35px 0 40px 35px;
+  border: none;
   background-color: #8D86C9;
   color: #ffffff;
   font-weight: 600;
   font-size: 18px;
-  line-height: 140%;
+  line-height: 1.4;
+  text-align: left;
 
 }
 
 .word{
+  display: block;
   margin-top: 17px;
   font-weight: 700;
   font-size: 24px;
-  line-height: 140%;
+  line-height: 1.4;
 }
 /* footer */
 
@@ -273,23 +278,26 @@ align-items: center;
 }
 /*team*/
 .titl{
-  font-style: normal;
+  margin-bottom: 75px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 140%;
+  line-height: 1.4;
   color: #333333;
-  margin: 0;
-  margin-bottom: 75p;
+}
+.rectangle{
+  display: block;
+  padding: 0 15px;
+  border: 1px solid #F7ECE1;
 }
 .list-it{
   display: flex;
   gap: 24px;
 }
-.list-it img{
+/*.list-it img{
   display: block;
   padding: 0 15px;
   border: 1px solid #F7ECE1;
-}
+}*/
 .list-it h4{
   margin: 25px 0 15px 0;
   font-weight: 600;
@@ -314,21 +322,23 @@ align-items: center;
   margin-left: 134px;
 }
 .calm{
-  width: 636px;
-  height: 330px;
   padding: 30px 25px;
+  border: 1px solid #F7ECE1;;
 }
 .cofe{
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 30px;
+  padding-left: 40px;
   background-image: url(/images/l.jpg);
   background-repeat: no-repeat;
-  width: 100%;
-  height: 300px;
+  width: 586px;
+  height: 270px;
 }
 .buying{
-  font-style: normal;
   font-weight: 700;
   font-size: 27px;
-  line-height: 140%;
+  line-height: 1.4;
   color: #FFFFFF;
 }
 .container-b{
