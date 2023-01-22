@@ -34,6 +34,10 @@ header {
   border-bottom: 1px solid #ffffff;
   padding-top: 30px;
   padding-bottom: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 img {
   display: block;
@@ -58,10 +62,29 @@ img {
   display: flex;
   gap: 40px;
 }
+.nav-menu-item{
+  position: relative;
+  overflow: hidden;
+}
+.icon{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  transform: translate(-100%,-50%);
+  background-color: white;
+}
+.active{
+  color: aqua;
+}
+.nav-menu-item:hover .icon{
+  transform: translate(0,-50%);
+}
 
 .nav-menu-item .link {
   color: #ffffff;
-
+  display: inline-block;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
@@ -320,16 +343,15 @@ align-items: center;
 }
 .coffe{
   margin-left: 134px;
+  position: relative;
 }
 .calm{
   padding: 30px 25px;
   border: 1px solid #F7ECE1;;
 }
 .cofe{
-  display: flex;
-  flex-direction: column-reverse;
+  position: relative;
   padding-bottom: 30px;
-  padding-left: 40px;
   background-image: url(/images/l.jpg);
   background-repeat: no-repeat;
   width: 586px;
@@ -337,6 +359,9 @@ align-items: center;
 }
 .buying{
   font-weight: 700;
+  position: absolute;
+  left: 40px;
+  bottom: 30px;
   font-size: 27px;
   line-height: 1.4;
   color: #FFFFFF;
@@ -344,4 +369,19 @@ align-items: center;
 .container-b{
   display: flex;
   margin: 0 auto;
+}
+
+
+.end {
+  display: block;
+  padding: 22.5px;
+  border: none;
+  background-color: #8D86C9;
+}
+.the{
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  gap: 15px;
 }
