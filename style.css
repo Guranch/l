@@ -61,25 +61,23 @@ img {
 .nav-menu {
   display: flex;
   gap: 40px;
+  margin-left: 124px;
 }
 .nav-menu-item{
   position: relative;
-  overflow: hidden;
 }
 .icon{
   position: absolute;
+  transform: translate(-200%, -50%);
+  transition: transform 0.5s, opacity 0.5s;
   top: 50%;
   left: 0;
   width: 10px;
   height: 10px;
-  transform: translate(-100%,-50%);
-  background-color: white;
-}
-.active{
-  color: aqua;
+  background-color: grey;
 }
 .nav-menu-item:hover .icon{
-  transform: translate(0,-50%);
+  transform: translate(10%, -100%);
 }
 
 .nav-menu-item .link {
@@ -167,10 +165,10 @@ img {
   width: 1236px;
 }
 .heads-contaainer{
-  padding-top: 30px;
-  padding-bottom: 60px;
   background-color: #232323;
-  color: #ffffff;
+  padding-top: 136px;
+      padding-bottom: 60px;
+      color: #ffffff;
 }
 
 .heads{
@@ -182,6 +180,7 @@ img {
 .news{
   padding-top:80px ;
   padding-bottom: 120px;
+  box-sizing: inherit;
 }
 .news .list{
   display: flex;
@@ -205,6 +204,10 @@ img {
   font-size: 21px;
   line-height: 1.4;
   color: #333333;
+}
+.new-container{
+  max-width: 1296px;
+  margin: 0 auto;
 }
 
 .news p {
