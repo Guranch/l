@@ -180,6 +180,7 @@ img {
 .news{
   padding-top:80px ;
   padding-bottom: 120px;
+  box-sizing: inherit;
 }
 .news .list{
   display: flex;
@@ -203,6 +204,10 @@ img {
   font-size: 21px;
   line-height: 1.4;
   color: #333333;
+}
+.new-container{
+  max-width: 1296px;
+  margin: 0 auto;
 }
 
 .news p {
