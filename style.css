@@ -232,7 +232,7 @@ img {
 
 .hero {
   padding-top: 200px;
-  background-image: url(/images/fon.jpg);
+  background-image: url(/images/playground.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -355,7 +355,7 @@ align-items: center;
 .cofe{
   position: relative;
   padding-bottom: 30px;
-  background-image: url(/images/l.jpg);
+  background-image: url(/images/background.jpg);
   background-repeat: no-repeat;
   width: 586px;
   height: 270px;
