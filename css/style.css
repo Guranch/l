@@ -13,7 +13,9 @@ h1,h2,h3,h4,h5,h6, p{
 }
 
 /* style */
-
+button{
+  cursor: pointer;
+}
 html{
   box-sizing: border-box;
 }
@@ -61,7 +63,6 @@ img {
 .nav-menu {
   display: flex;
   gap: 40px;
-  margin-left: 124px;
 }
 .nav-menu-item{
   position: relative;
@@ -169,6 +170,8 @@ img {
   padding-top: 136px;
       padding-bottom: 60px;
       color: #ffffff;
+      background-image: url('../images/back.jpg');
+      background-repeat: no-repeat;
 }
 
 .heads{
@@ -301,6 +304,7 @@ align-items: center;
   font-size: 14px;
   line-height: 140%;
   color: #333333;
+  opacity: 0.3;
 }
 /*team*/
 .titl{
@@ -379,6 +383,7 @@ align-items: center;
   display: block;
   padding: 22.5px;
   border: none;
+  cursor: pointer;
   background-color: #8D86C9;
 }
 .the{
@@ -387,4 +392,60 @@ align-items: center;
   right: 0;
   top: 0;
   gap: 15px;
+}
+/*mercedes*/
+.mercedes{
+  padding-bottom: 150px;
+}
+.back-img{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(calc(-100% + 86px), -50%);
+}
+.back{
+  position: relative;
+  padding: 70px 60px 84px 145px;
+  max-width: 636px;
+  margin-left: 836px;
+  margin-right: auto;
+  background-color: #F7ECE1;
+
+}
+.sport{
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.4;
+}
+.text-container {
+  position: relative;
+  padding: 70px 60px 84px 146px;
+  max-width: 636px;
+  margin-right: auto;
+  margin-left: 862px;
+  background-color: #F7ECE1;
+}
+.ornare .sport {
+  margin-bottom: 25px;
+}
+.hac{
+  margin-bottom: 35px;
+}
+
+.tochka{
+  transform: translateX(-100%);
+  position: absolute;
+  top: 8px;
+  left: -25px;
+  width: 8px;
+  height: 8px;
+  background-color: #8D86C9;
+}
+
+.is {
+  position: relative;
+}
+.is+.is{
+  margin-top: 21px;
 }
