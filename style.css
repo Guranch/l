@@ -16,6 +16,15 @@ h1,h2,h3,h4,h5,h6, p{
 button{
   cursor: pointer;
 }
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 21px;
+}
 html{
   box-sizing: border-box;
 }
@@ -28,9 +37,6 @@ body {
   font-family: 'Gilroy';
 }
 /* main html */
-main{
-  background-color: #ffffff;
-}
 header {
   border-bottom: 1px solid #ffffff;
   padding-top: 30px;
@@ -614,6 +620,7 @@ align-items: center;
   margin-top: 21px;
 }
 /*club*/
+/*clubs*/
 .clubs-contaainer{
       padding-top: 136px;
       padding-bottom: 60px;
@@ -627,6 +634,7 @@ align-items: center;
   font-size: 48px;
   line-height: 1.4;
 }
+/*photo-cort*/
 .cart{
   position: relative;
 }
@@ -657,6 +665,7 @@ align-items: center;
     line-height: 1.4;
     color: #FFFFFF;
 }
+/*about-club*/
 .stadion{
   position: absolute;
   top: 50%;
@@ -672,6 +681,7 @@ align-items: center;
   padding: 70px 60px 93px 146px;
   position: relative;
   max-width: 860px;
+  margin-left: 700px;
 }
 .about-stadion .listnumb{
   margin-top: 58px;
@@ -725,4 +735,47 @@ align-items: center;
 .listnumb li{
   position: relative;
   min-width: 124px;
+}
+/*regulations*/
+.zagolovok{
+  display: flex;
+  padding-bottom: 120px;
+}
+.regulations{
+  min-width: 366px;
+  margin-right: 74px;
+}
+.regulations .items+ .items{
+  margin-top: 40px;
+}
+.special{
+  color: #8D86C9;
+  margin-left: 31px;
+}
+.item-li+.item-li{
+  margin-top: 22px;
+}
+.item-li{
+  position: relative;
+}
+.item-li::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  width: 15px;
+  height: 5px;
+  background-color: #8D86C9;
+}
+.p-h{
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #333333;
+}
+.list-li{
+  padding-left: 39px;
+}
+.list-clubs li+li{
+  margin-top: 40px;
 }
