@@ -316,7 +316,7 @@ img {
 }
 .hero .svg {
   width: 20px;
-  height: 16px;
+  height: 20px;
   position: absolute;
   left: 24px;
   top: 24px;
@@ -355,13 +355,16 @@ img {
   font-weight: 600;
   font-size: 18px;
   color: #FFFFFF;
-  margin-left: 30px;
+}
+.poly{
+
 }
 
 .el-svg-p{
   display: flex;
   align-items: center;
   margin-bottom: 202px;
+  gap: 30px;
 }
 .bt {
   display: flex;
@@ -454,6 +457,10 @@ align-items: center;
   font-size: 36px;
   line-height: 1.4;
   color: #333333;
+}
+.non{
+  margin-left: 312px;
+  margin-bottom: 60px;
 }
 .list-team{
   display: flex;
@@ -603,7 +610,8 @@ align-items: center;
 .hac{
   margin-bottom: 35px;
 }
-.tochka{
+.benz::before{
+  content: '';
   transform: translateX(-100%);
   position: absolute;
   top: 6px;
@@ -681,7 +689,7 @@ align-items: center;
   padding: 70px 60px 93px 146px;
   position: relative;
   max-width: 860px;
-  margin-left: 700px;
+  margin-left: 760px;
 }
 .about-stadion .listnumb{
   margin-top: 58px;
