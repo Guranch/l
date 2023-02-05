@@ -259,8 +259,10 @@ img {
 
 .news .item {
   width: 416px;
+  height: 512px;
   padding: 30px 40px;
   outline: 1px solid #F7ECE1;
+  position: relative;
 }
 .news img{
   display: block;
@@ -295,6 +297,12 @@ img {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.4;
+  position: absolute;
+  width: 137px;
+  height: 45px;
+  bottom: 30px;
+  left: 40px;
+
 }
 .news .item:nth-child(2) h4{
   margin-bottom: 49px;
