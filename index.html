@@ -29,7 +29,7 @@
             <li class="nav-menu-item"><a href="index.html" class="link active">Главная</a><div class="icon"></div></li>
             <li class="nav-menu-item"><a href="block.html" class="link active">О клубе</a><div class="icon"></div></li>
             <li class="nav-menu-item"><a href="club.html" class="link active">Турниры</a><div class="icon"></div></li>
-            <li class="nav-menu-item"><a href="module.html" class="link active">Услуги</a><div class="icon"></div></li>
+            <li class="nav-menu-item"><a href class="link active">Услуги</a><div class="icon"></div></li>
             <li class="nav-menu-item">
               <a href="" class="link">Детский теннис</a>
               <div class="icon"></div>
@@ -64,7 +64,7 @@
           <div class="button-cont">
             <ul class="bt">
               <li class="el">
-                <button class="button" type="button">Услуги<span class="word">Аренда корта</span></button>
+                <button class="button" type="button" data-modal-open>Услуги<span class="word">Аренда корта</span></button>
               </li>
               <li class="el">
                 <button class="button" type="button">Услуги
@@ -105,7 +105,7 @@
       </div>
       </section>
       <section class="mercedes">
-          <div class="back">
+        <div class="back">
             <img class="back-img" src="./images/tennis.jpg" alt="tennis" width="526px" height="514px" >
             <h2 class="sport">Спортивный клуб</h2>
             <p class="more">Imperdiet lorem ipsum, pulvinar aliquet sit ultricies in sit turpis. Ultricies erat pretium risus quam tincidunt non viverra porttitor. Sollicitudin enim nunc in nisi donec vel. Blandit mauris vitae amet aliquet ultrices mauris pellentesque. Non ipsum commodo, sit mi sit netus aenean nisl. ]Donec sit pellentesque enim, vestibulum. 
@@ -126,7 +126,7 @@
                   <p class="benz">Quam purus ornare dictum pharetra. Sed viverra tellus sollicitudin urna,sagittis.</p>
                 </li>
               </ul>
-          </div>
+          </div>  
       </section>
       <setion class="team">
         <div class=" cont">
@@ -277,5 +277,37 @@
       </ul>
       </div>
     </footer>
+    <div class="background-module" class="visually-hidden" data-modal>
+      <div class="module" >
+        <button class="module-close" data-modal-close>X</button>
+        <img class="exotic" src="./images/exotic.png" alt="exo">
+          <p class="module-title-form">Create An Account</p>
+          <form>
+              <div class="div-module">
+              <input class="input-module" placeholder="full name" type="text">
+              <svg class="svg-module"><use href="./images/people.svg#people"></use></svg>
+              </div>
+              <div class="div-module">
+              <input class="input-module" placeholder="email" type="email">
+              <svg class="svg-module2"><use href="./images/mail.svg#mail"></use></svg>
+              </div>
+              <div class="div-module-special">
+              <input class="input-module" placeholder="password" type="password">
+              <svg class="svg-module3"><use href="./images/block.svg#block"></use></svg>
+              </div>
+              <button class="btn-module">sign up</button>
+          </form>
+      <div class="sign-div">
+        <p class="sign-title">Or Sign Up With</p>
+      </div>
+      <button class="btn-fg">
+        <svg class="facebook"><use href="./images/facebook.svg#facebook"></use></svg>
+      </button>
+      <button class="btn-fg">
+        <svg class="google"><use href="./images/google.svg#google"></use></svg>
+      </button>
+      </div>
+  </div>
+  <script src="./js/modal.js"></script>
   </body>
 </html>

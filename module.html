@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
   </head>
 <body>
-    <button class="module-open" type="button">open</button>
-    <div class="background-module">
-        <div class="module">
+    <button class="modal-open" type="button" data-modal-open>open</button>
+    <div class="background-module" class="visually-hidden" data-modal>
+        <div class="module" >
+          <button class="module-close" data-modal-close>X</button>
           <img class="exotic" src="./images/exotic.png" alt="exo">
             <p class="module-title-form">Create An Account</p>
             <form>
@@ -47,5 +48,6 @@
         </button>
         </div>
     </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
