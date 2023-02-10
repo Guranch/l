@@ -83,6 +83,8 @@ img {
 .nav-menu {
   display: flex;
   gap: 40px;
+}
+.nav{
   margin-left: 124px;
 }
 .nav-menu-item{
@@ -156,14 +158,13 @@ img {
   justify-content: center;
 }
 .photo h3{
-  position: absolute;
-  bottom: 40px;
-  left: 0px;
-  right: 0px;
   font-weight: 700;
   font-size: 27px;
   text-align: center;
-  color: white;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 40px;
+  left: 75px;
 }
 .photo-div1{
   width: 374px;
@@ -433,7 +434,7 @@ align-items: center;
 }
 .icon-ul{
   display: flex;
-  gap: 30px;
+  gap: 19px;
   cursor: pointer;
   margin-left: 107px;
 }
@@ -545,7 +546,6 @@ align-items: center;
 }
 .cofe{
   position: relative;
-  padding-bottom: 30px;
   background-image: url('../images/background.jpg');
   background-repeat: no-repeat;
   width: 586px;
@@ -619,6 +619,7 @@ align-items: center;
 }
 .hac{
   margin-bottom: 35px;
+  margin-top: 23px;
 }
 .benz::before{
   content: '';
@@ -689,6 +690,9 @@ align-items: center;
   top: 50%;
   left: 86px;
   transform: translate(-100%, -50%);
+}
+.about-cont{
+  padding-bottom: 120px;
 }
 .about-stadion .title{
   max-width: 550px;
@@ -816,6 +820,7 @@ align-items: center;
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 45px 19px 118px 18px;
   transform: translate(-50%,-50%);
   background: linear-gradient(180deg, #F4E38B 0%, rgba(244, 227, 137, 0) 205px),
   linear-gradient(180deg, rgba(251, 251, 252, 0) calc(100% - 89px), #F4E38B 100%);
@@ -939,7 +944,7 @@ align-items: center;
   position: absolute;
   transform: translateY(-50%);
   top: 50%;
-  left: 16px;
+  left: 15px;
 }
 .btn-fg{
   width: 52.71px;
@@ -968,4 +973,34 @@ align-items: center;
   margin-bottom: 113px;
   margin-left: 40px;
   margin-top: 45px;
+}
+.div-module+.div-module{
+  margin-top: 14px;
+}
+.div-module-special{
+  margin-top: 14px;
+}
+.module-close{
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  background-color: #7140EB;
+  border-radius: 50%;
+  border: transparent;
+  cursor: pointer;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
